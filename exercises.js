@@ -161,7 +161,7 @@ function buildEx3() {
     let html = `
         <div class="exercise-instruction">
             <strong>🎯 Completează cu forma corectă a verbului „sein".</strong><br>
-            Formele: <strong>ich bin · du bist · er/sie ist · wir sind · ihr seid · sie/Sie sind</strong>.
+            Folosește ce ai învățat la teorie. Atenție la <em>ihr seid</em> (cu d, NU t)!
         </div>
     `;
     ex3Data.forEach((item, index) => {

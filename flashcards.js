@@ -7,15 +7,15 @@ const flashcardsData = [
     // === Numere 0-10 (11) ===
     { de: "null", ro: "0 (zero) · folosit la telefon: null-eins-sechs", audio: "audio/letters/null.wav" },
     { de: "eins", ro: "1 (unu) · înaintea unui substantiv devine ein/eine", audio: "audio/letters/eins.wav" },
-    { de: "zwei", ro: "2 (doi) · la telefon se zice și „zwo" ca să nu se confunde cu „drei"", audio: "audio/letters/zwei.wav" },
+    { de: "zwei", ro: "2 (doi) · la telefon se zice și ZWO ca să nu se confunde cu DREI", audio: "audio/letters/zwei.wav" },
     { de: "drei", ro: "3 (trei)", audio: "audio/letters/drei.wav" },
-    { de: "vier", ro: "4 (patru) · NU se citește „fir", ci „fiar"", audio: "audio/letters/vier.wav" },
+    { de: "vier", ro: "4 (patru) · NU se citește FIR, ci FIAR", audio: "audio/letters/vier.wav" },
     { de: "fünf", ro: "5 (cinci) · cu Umlaut: ü = ue", audio: "audio/letters/fuenf.wav" },
-    { de: "sechs", ro: "6 (șase) · se citește „zecs"", audio: "audio/letters/sechs.wav" },
+    { de: "sechs", ro: "6 (șase) · se citește ZECS", audio: "audio/letters/sechs.wav" },
     { de: "sieben", ro: "7 (șapte) · singurul număr cu 2 silabe sub 10", audio: "audio/letters/sieben.wav" },
     { de: "acht", ro: "8 (opt)", audio: "audio/letters/acht.wav" },
-    { de: "neun", ro: "9 (nouă) · NU „nein" (= nu)!", audio: "audio/letters/neun.wav" },
-    { de: "zehn", ro: "10 (zece) · se citește „țen"", audio: "audio/letters/zehn.wav" },
+    { de: "neun", ro: "9 (nouă) · NU se confundă cu NEIN (= nu)!", audio: "audio/letters/neun.wav" },
+    { de: "zehn", ro: "10 (zece) · se citește ȚEN", audio: "audio/letters/zehn.wav" },
 
     // === Numere 11-20 — capcanele (4) ===
     { de: "elf", ro: "11 (unsprezece) · NU einzehn!", audio: "audio/letters/elf.wav" },
@@ -29,7 +29,7 @@ const flashcardsData = [
     { de: "vierzig", ro: "40 (patruzeci)", audio: "audio/letters/vierzig.wav" },
     { de: "sechzig", ro: "60 (șaizeci) · ⚠️ pierde s (ca sechzehn)", audio: "audio/letters/sechzig.wav" },
     { de: "siebzig", ro: "70 (șaptezeci) · ⚠️ pierde -en (ca siebzehn)", audio: "audio/letters/siebzig.wav" },
-    { de: "hundert", ro: "100 (o sută) · și „einhundert"", audio: "audio/letters/hundert.wav" },
+    { de: "hundert", ro: "100 (o sută) · și forma EINHUNDERT", audio: "audio/letters/hundert.wav" },
 
     // === Numere compuse — regula inversării (3) ===
     { de: "einundzwanzig", ro: "21 (1 ȘI 20) · vârsta Andreei", audio: "audio/letters/einundzwanzig.wav" },
@@ -45,7 +45,7 @@ const flashcardsData = [
     { de: "sie/Sie sind", ro: "ei sunt / dvs. sunteți · Sind Sie Frau Hullmann?", audio: "audio/letters/sie-sind.wav" },
 
     // === Profesii personaje (2) ===
-    { de: "Ich bin Lehrerin.", ro: "Sunt profesoară. · ⚠️ FĂRĂ articol (NU eine Lehrerin)", audio: "audio/letters/ich-bin-lehrerin.wav" },
+    { de: "Ich bin Lehrerin.", ro: "Sunt profesoară. · ⚠️ FĂRĂ articol — NU se zice eine Lehrerin", audio: "audio/letters/ich-bin-lehrerin.wav" },
     { de: "Wie alt bist du?", ro: "Câți ani ai? · Ich bin 21 (Jahre alt).", audio: "audio/letters/wie-alt-bist-du.wav" }
 ];
 

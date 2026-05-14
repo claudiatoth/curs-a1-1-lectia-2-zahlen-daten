@@ -201,13 +201,13 @@ const theoryHTML = `
             <div class="theory-box" style="background: #d1fae5;">
                 <h4>📊 Conjugare „sein"</h4>
                 <table class="grammar-table">
-                    <tr><th>Pronume</th><th>Formă</th><th>Traducere</th><th>Exemplu</th></tr>
-                    <tr><td><strong>ich</strong></td><td><strong>bin</strong></td><td>eu sunt</td><td>Ich <strong>bin</strong> Andreea.</td></tr>
-                    <tr><td><strong>du</strong></td><td><strong>bist</strong></td><td>tu ești</td><td>Du <strong>bist</strong> 21 Jahre alt.</td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td><strong>ist</strong></td><td>el/ea este</td><td>Mihai <strong>ist</strong> Koch.</td></tr>
-                    <tr><td><strong>wir</strong></td><td><strong>sind</strong></td><td>noi suntem</td><td>Wir <strong>sind</strong> Studenten.</td></tr>
-                    <tr><td><strong>ihr</strong></td><td><strong>seid</strong></td><td>voi sunteți</td><td>Ihr <strong>seid</strong> in Berlin.</td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td><strong>sind</strong></td><td>ei sunt / dvs. sunteți</td><td><strong>Sind</strong> Sie Frau Hullmann?</td></tr>
+                    <tr><th>Pronume</th><th>Formă</th><th>Traducere</th><th>Exemplu (DE + RO)</th></tr>
+                    <tr><td><strong>ich</strong></td><td><strong>bin</strong></td><td>eu sunt</td><td>Ich <strong>bin</strong> Andreea.<br><em style="color:#6b7280;">Eu sunt Andreea.</em></td></tr>
+                    <tr><td><strong>du</strong></td><td><strong>bist</strong></td><td>tu ești</td><td>Du <strong>bist</strong> 21 Jahre alt.<br><em style="color:#6b7280;">Tu ai 21 de ani.</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td><strong>ist</strong></td><td>el/ea este</td><td>Mihai <strong>ist</strong> Koch.<br><em style="color:#6b7280;">Mihai este bucătar.</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td><strong>sind</strong></td><td>noi suntem</td><td>Wir <strong>sind</strong> Studenten.<br><em style="color:#6b7280;">Noi suntem studenți.</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td><strong>seid</strong></td><td>voi sunteți</td><td>Ihr <strong>seid</strong> in Berlin.<br><em style="color:#6b7280;">Voi sunteți în Berlin.</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td><strong>sind</strong></td><td>ei sunt / dvs. sunteți</td><td><strong>Sind</strong> Sie Frau Hullmann?<br><em style="color:#6b7280;">Sunteți (dvs.) doamna Hullmann?</em></td></tr>
                 </table>
             </div>
 
@@ -339,7 +339,8 @@ const theoryHTML = `
                     ✅ <strong>Ich bin Lehrerin.</strong> &nbsp; (Sunt profesoară.)<br>
                     ❌ <s>Ich bin eine Lehrerin.</s>
                 </p>
-                <p>Construcția e: <strong>Ich bin</strong> + <strong>(von Beruf)</strong> + <strong>profesia</strong>.</p>
+                <p>Construcția e: <strong>Ich bin</strong> + <strong>profesia</strong> + <strong>(von Beruf)</strong>.</p>
+                <p style="margin-top:6px;">Exemple: <em>„Ich bin Lehrerin von Beruf."</em> &nbsp;sau&nbsp; <em>„Ich bin Lehrerin."</em> (varianta scurtă, cea mai folosită).</p>
             </div>
 
             <div class="theory-box">
@@ -367,7 +368,7 @@ const theoryHTML = `
                 <ol style="margin-left: 18px;">
                     <li><strong>Câți ani ai</strong>: <em>„Ich bin 25 (Jahre alt)."</em></li>
                     <li><strong>Unde locuiești</strong>: <em>„Ich wohne in der Rosenstraße 14, 14467 Potsdam."</em></li>
-                    <li><strong>Care e telefonul tău</strong>: <em>„Meine Nummer ist 0176 / 28 45 91."</em></li>
+                    <li><strong>Care e numărul tău de telefon</strong>: <em>„Meine Nummer ist 0176 / 28 45 91."</em></li>
                     <li><strong>Ce profesie ai</strong>: <em>„Ich bin Lehrerin."</em> (fără articol!)</li>
                 </ol>
                 <p style="margin-top: 12px; text-align: center; font-weight: bold; color: #065f46;">Acum ești gata să completezi un formular Anmeldung. 🎉</p>

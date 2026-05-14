@@ -103,7 +103,7 @@ const theoryHTML = `
                 <h4>⚠️ 3 capcane de pronunție</h4>
                 <ul style="margin-left: 18px;">
                     <li><strong>zwölf (12)</strong> — NU „zwei + zehn"! E un cuvânt special. Pronunție: <em>„țvölf"</em>.</li>
-                    <li><strong>sechzehn (16)</strong> — pierde <strong>s</strong>-ul: NU <s>sechs-zehn</s>, ci <strong>sech-zehn</strong> (<em>„zeh-țen"</em>).</li>
+                    <li><strong>sechzehn (16)</strong> — pierde <strong>s</strong>-ul: NU <s>sechs-zehn</s>, ci <strong>sech-zehn</strong> (<em>„seh-țen"</em>).</li>
                     <li><strong>siebzehn (17)</strong> — pierde <strong>-en</strong>: NU <s>sieben-zehn</s>, ci <strong>sieb-zehn</strong>.</li>
                 </ul>
             </div>
@@ -171,7 +171,7 @@ const theoryHTML = `
                 <img src="images/mihai.png" alt="Mihai" class="andreea-note-avatar">
                 <div class="andreea-note-content">
                     <div class="speaker">Mihai îți spune (cu accent rusesc 😄):</div>
-                    <div class="text">„Eu am 25 de ani — <strong>fünfundzwanzig</strong>. La început scriam <em>zwanzigfünf</em> (cum e în rusă/română). <strong>NU!</strong> În germană se zice INVERS: <strong>cifra mică</strong> + <strong>und</strong> + <strong>zecile</strong>. Acum o zic în somn."</div>
+                    <div class="text">„Eu am 25 de ani — <strong>fünfundzwanzig</strong>. La început scriam <em>zwanzigfünf</em> (cum e în română). <strong>NU!</strong> În germană se zice INVERS: <strong>cifra mică</strong> + <strong>und</strong> + <strong>zecile</strong>. Acum o zic în somn."</div>
                 </div>
             </div>
         </div>

@@ -354,13 +354,17 @@ const theoryHTML = `
                     <tr><td>Carolina (24)</td><td><strong>Fotografin</strong></td><td>fotografă</td></tr>
                     <tr><td>Acar (34)</td><td><strong>Vorarbeiter</strong></td><td>maistru construcții</td></tr>
                 </table>
-                <p style="margin-top: 10px;">⚠️ Atenție: la profesii, formele masculin/feminin sunt diferite:</p>
+                <p style="margin-top: 10px;">⚠️ Atenție: la profesii, formele masculin/feminin sunt diferite — fiecare cu pluralul lui:</p>
                 <ul style="margin-left: 18px;">
-                    <li>der Lehr<strong>er</strong> (m) → die Lehr<strong>erin</strong> (f)</li>
-                    <li>der Arzt (m) → die <strong>Ärztin</strong> (f) ⚠️ cu Umlaut!</li>
-                    <li>der Koch (m) → die <strong>Köchin</strong> (f) ⚠️ cu Umlaut!</li>
-                    <li>der Stud<strong>ent</strong> (m) → die Stud<strong>entin</strong> (f)</li>
+                    <li><strong>der Lehrer · die Lehrer</strong> (m, pl identic) <span class="ro-translation">— profesorul · profesorii</span> → <strong>die Lehrerin · die Lehrerinnen</strong> (f, pl cu <em>-nen</em>) <span class="ro-translation">— profesoara · profesoarele</span></li>
+                    <li><strong>der Arzt · die Ärzte</strong> (m, pl cu Umlaut) <span class="ro-translation">— doctorul · doctorii</span> → <strong>die Ärztin · die Ärztinnen</strong> (f) <span class="ro-translation">— doctorița · doctorițele</span> ⚠️ ambele cu Umlaut!</li>
+                    <li><strong>der Koch · die Köche</strong> (m, pl cu Umlaut) <span class="ro-translation">— bucătarul · bucătarii</span> → <strong>die Köchin · die Köchinnen</strong> (f) <span class="ro-translation">— bucătăreasa · bucătăresele</span> ⚠️ ambele cu Umlaut!</li>
+                    <li><strong>der Student · die Studenten</strong> (m, pl cu <em>-en</em>) <span class="ro-translation">— studentul · studenții</span> → <strong>die Studentin · die Studentinnen</strong> (f) <span class="ro-translation">— studenta · studentele</span></li>
                 </ul>
+                <div class="theory-box" style="background: #ecfdf5; border-color: #10b981; margin-top: 10px;">
+                    <h4 style="margin: 0 0 6px; font-size: 0.95rem;">🔤 Substantivele în germană au MEREU articol + plural</h4>
+                    <p style="margin: 0; font-size: 0.9rem;">Pluralul german e <em>imprevizibil</em> (terminații diferite: <strong>-e, -en, -er, -s, -nen</strong>, +Umlaut). De aceea învățăm substantivele cu <strong>articol (der/die/das) + forma de plural</strong> din primul contact.</p>
+                </div>
             </div>
 
             <div class="theory-box" style="background: #d1fae5;">

@@ -24,14 +24,14 @@ function normalizeAnswer(str) {
 // EXERCIȚIUL 1: Audio drill — auzi numărul, scrie cifra
 // ============================================
 const ex1Data = [
-    { id: 'a', audio: 'audio/letters/zwoelf.wav', word: 'zwölf', correct: '12' },
-    { id: 'b', audio: 'audio/letters/sechzehn.wav', word: 'sechzehn', correct: '16' },
-    { id: 'c', audio: 'audio/letters/siebzehn.wav', word: 'siebzehn', correct: '17' },
-    { id: 'd', audio: 'audio/letters/einundzwanzig.wav', word: 'einundzwanzig', correct: '21' },
-    { id: 'e', audio: 'audio/letters/dreissig.wav', word: 'dreißig', correct: '30' },
-    { id: 'f', audio: 'audio/letters/siebenundsechzig.wav', word: 'siebenundsechzig', correct: '67' },
-    { id: 'g', audio: 'audio/letters/neunundneunzig.wav', word: 'neunundneunzig', correct: '99' },
-    { id: 'h', audio: 'audio/letters/hundert.wav', word: 'hundert', correct: '100' }
+    { id: 'a', audio: 'audio/letters/zwoelf.wav', word: 'zwölf', correct: '12', accept: ['12', 'zwölf', 'zwoelf'] },
+    { id: 'b', audio: 'audio/letters/sechzehn.wav', word: 'sechzehn', correct: '16', accept: ['16', 'sechzehn'] },
+    { id: 'c', audio: 'audio/letters/siebzehn.wav', word: 'siebzehn', correct: '17', accept: ['17', 'siebzehn'] },
+    { id: 'd', audio: 'audio/letters/einundzwanzig.wav', word: 'einundzwanzig', correct: '21', accept: ['21', 'einundzwanzig'] },
+    { id: 'e', audio: 'audio/letters/dreissig.wav', word: 'dreißig', correct: '30', accept: ['30', 'dreißig', 'dreissig'] },
+    { id: 'f', audio: 'audio/letters/siebenundsechzig.wav', word: 'siebenundsechzig', correct: '67', accept: ['67', 'siebenundsechzig'] },
+    { id: 'g', audio: 'audio/letters/neunundneunzig.wav', word: 'neunundneunzig', correct: '99', accept: ['99', 'neunundneunzig'] },
+    { id: 'h', audio: 'audio/letters/hundert.wav', word: 'hundert', correct: '100', accept: ['100', 'hundert', 'einhundert'] }
 ];
 
 function buildEx1() {
@@ -73,8 +73,10 @@ function checkEx1() {
     ex1Data.forEach(item => {
         const input = document.getElementById(`ex1-${item.id}`);
         const fb = document.getElementById(`ex1-f${item.id}`);
-        const userAnswer = (input.value || '').trim();
-        if (userAnswer === item.correct) {
+        const userAnswer = normalizeAnswer(input.value);
+        // Regula #17: accept ambele forme (cifră sau litere)
+        const isCorrect = (item.accept || [item.correct]).some(a => normalizeAnswer(a) === userAnswer);
+        if (isCorrect) {
             fb.className = 'feedback correct';
             fb.textContent = `Corect: ${item.correct} = ${item.word}`;
             correct++;
@@ -90,14 +92,14 @@ function checkEx1() {
 // EXERCIȚIUL 2: Scrie numărul în litere
 // ============================================
 const ex2Data = [
-    { id: 'a', num: '13', correct: 'dreizehn', accept: ['dreizehn'] },
-    { id: 'b', num: '21', correct: 'einundzwanzig', accept: ['einundzwanzig'] },
-    { id: 'c', num: '47', correct: 'siebenundvierzig', accept: ['siebenundvierzig'] },
-    { id: 'd', num: '99', correct: 'neunundneunzig', accept: ['neunundneunzig'] },
-    { id: 'e', num: '100', correct: 'hundert', accept: ['hundert', 'einhundert'] },
-    { id: 'f', num: '30', correct: 'dreißig', accept: ['dreißig', 'dreissig'] },
-    { id: 'g', num: '16', correct: 'sechzehn', accept: ['sechzehn'] },
-    { id: 'h', num: '70', correct: 'siebzig', accept: ['siebzig'] }
+    { id: 'a', num: '13', correct: 'dreizehn', accept: ['dreizehn', '13'] },
+    { id: 'b', num: '21', correct: 'einundzwanzig', accept: ['einundzwanzig', '21'] },
+    { id: 'c', num: '47', correct: 'siebenundvierzig', accept: ['siebenundvierzig', '47'] },
+    { id: 'd', num: '99', correct: 'neunundneunzig', accept: ['neunundneunzig', '99'] },
+    { id: 'e', num: '100', correct: 'hundert', accept: ['hundert', 'einhundert', '100'] },
+    { id: 'f', num: '30', correct: 'dreißig', accept: ['dreißig', 'dreissig', '30'] },
+    { id: 'g', num: '16', correct: 'sechzehn', accept: ['sechzehn', '16'] },
+    { id: 'h', num: '70', correct: 'siebzig', accept: ['siebzig', '70'] }
 ];
 
 function buildEx2() {
@@ -266,7 +268,7 @@ function checkEx4() {
 const ex5Data = [
     { id: 'a', question: 'Wie ____ du? (verbul de salut/identificare)', translation: 'Cum te numești?', correct: 'heißt', accept: ['heißt', 'heisst'] },
     { id: 'b', question: 'Wie alt ____ Andreea? (verb sein)', translation: 'Câți ani are Andreea?', correct: 'ist', accept: ['ist'] },
-    { id: 'c', question: 'Andreea ist ____ Jahre alt. (vârsta în litere)', translation: 'Andreea are 21 de ani.', correct: 'einundzwanzig', accept: ['einundzwanzig'] },
+    { id: 'c', question: 'Andreea ist ____ Jahre alt. (vârsta în litere)', translation: 'Andreea are 21 de ani.', correct: 'einundzwanzig', accept: ['einundzwanzig', '21'] },
     { id: 'd', question: 'Woher ____ Mihai? (verb kommen)', translation: 'De unde vine Mihai?', correct: 'kommt', accept: ['kommt'] },
     { id: 'e', question: 'Mihai kommt aus ____. (țara — în germană)', translation: 'Mihai vine din Rusia.', correct: 'Russland', accept: ['russland'] },
     { id: 'f', question: 'Was ist Annette von ____? (substantivul „profesie")', translation: 'Ce profesie are Annette?', correct: 'Beruf', accept: ['beruf'] },

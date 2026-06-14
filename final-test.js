@@ -251,7 +251,7 @@ function finishTest() {
     if (mist.length) {
         mistH = '<div class="test-mistakes"><h4>📝 Întrebările greșite:</h4>';
         mist.forEach(m => {
-            mistH += `<div class="mistake-item"><strong>Întrebarea ${m.i + 1}</strong> - ${m.q.category}<br><span style="color:#991b1b;">Răspunsul tău: <em>${m.u}</em></span><br><span style="color:#065f46;">Corect: <strong>${m.q.correct}</strong></span><br><small style="color:#6b7280;">${m.q.explanation}</small></div>`;
+            mistH += `<div class="mistake-item"><strong>Întrebarea ${m.i + 1}</strong> - ${m.q.category}<br><span style="color:#991b1b;">Răspunsul tău: <em>${m.u}</em></span><br><span style="color:#065f46;">Corect: <strong>${m.q.correct}</strong></span><br><small style="color:#5A5147;">${m.q.explanation}</small></div>`;
         });
         mistH += '</div>';
     }

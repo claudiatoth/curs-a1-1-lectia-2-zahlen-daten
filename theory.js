@@ -99,7 +99,7 @@ const theoryHTML = `
                 </table>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7; border-left: 4px solid #f59e0b;">
+            <div class="theory-box" style="background: #F5F0E8; border-left: 4px solid #D4A574;">
                 <h4>⚠️ 3 capcane de pronunție</h4>
                 <ul style="margin-left: 18px;">
                     <li><strong>zwölf (12)</strong> — NU „zwei + zehn"! E un cuvânt special. Pronunție: <em>„țvölf"</em>.</li>
@@ -202,16 +202,16 @@ const theoryHTML = `
                 <h4>📊 Conjugare „sein"</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Formă</th><th>Traducere</th><th>Exemplu (DE + RO)</th></tr>
-                    <tr><td><strong>ich</strong></td><td><strong>bin</strong></td><td>eu sunt</td><td>Ich <strong>bin</strong> Andreea.<br><em style="color:#6b7280;">Eu sunt Andreea.</em></td></tr>
-                    <tr><td><strong>du</strong></td><td><strong>bist</strong></td><td>tu ești</td><td>Du <strong>bist</strong> 21 Jahre alt.<br><em style="color:#6b7280;">Tu ai 21 de ani.</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td><strong>ist</strong></td><td>el/ea este</td><td>Mihai <strong>ist</strong> Koch.<br><em style="color:#6b7280;">Mihai este bucătar.</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td><strong>sind</strong></td><td>noi suntem</td><td>Wir <strong>sind</strong> Studenten.<br><em style="color:#6b7280;">Noi suntem studenți.</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td><strong>seid</strong></td><td>voi sunteți</td><td>Ihr <strong>seid</strong> in Berlin.<br><em style="color:#6b7280;">Voi sunteți în Berlin.</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td><strong>sind</strong></td><td>ei sunt / dvs. sunteți</td><td><strong>Sind</strong> Sie Frau Hullmann?<br><em style="color:#6b7280;">Sunteți (dvs.) doamna Hullmann?</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td><strong>bin</strong></td><td>eu sunt</td><td>Ich <strong>bin</strong> Andreea.<br><em style="color:#5A5147;">Eu sunt Andreea.</em></td></tr>
+                    <tr><td><strong>du</strong></td><td><strong>bist</strong></td><td>tu ești</td><td>Du <strong>bist</strong> 21 Jahre alt.<br><em style="color:#5A5147;">Tu ai 21 de ani.</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td><strong>ist</strong></td><td>el/ea este</td><td>Mihai <strong>ist</strong> Koch.<br><em style="color:#5A5147;">Mihai este bucătar.</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td><strong>sind</strong></td><td>noi suntem</td><td>Wir <strong>sind</strong> Studenten.<br><em style="color:#5A5147;">Noi suntem studenți.</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td><strong>seid</strong></td><td>voi sunteți</td><td>Ihr <strong>seid</strong> in Berlin.<br><em style="color:#5A5147;">Voi sunteți în Berlin.</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td><strong>sind</strong></td><td>ei sunt / dvs. sunteți</td><td><strong>Sind</strong> Sie Frau Hullmann?<br><em style="color:#5A5147;">Sunteți (dvs.) doamna Hullmann?</em></td></tr>
                 </table>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7; border-left: 4px solid #f59e0b;">
+            <div class="theory-box" style="background: #F5F0E8; border-left: 4px solid #D4A574;">
                 <h4>⚠️ Capcanele lui „sein"</h4>
                 <ul style="margin-left: 18px;">
                     <li><strong>ihr seid</strong> — voi sunteți. NU <s>ihr seit</s> (cu „t"). Litera e <strong>d</strong> (de la „werd<em>en</em>" istoric).</li>
